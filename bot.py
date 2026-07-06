@@ -444,7 +444,7 @@ def send_welcome_dashboard(chat_id, message_id=None):
         "⚡ <b>Select an option below to begin:</b>"
     )
     markup = types.InlineKeyboardMarkup(row_width=2)
-    btn_dev = types.InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/{@ShadowCipherX1}")
+    btn_dev = types.InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/UIDIIIAROBOT}")
     btn_start = types.InlineKeyboardButton("🚀 Start", callback_data="start_bypass")
     markup.add(btn_dev, btn_start)
     
